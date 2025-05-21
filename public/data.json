@@ -1,0 +1,140 @@
+{
+  "HTML": [
+    {
+      "question": "¿Cuál es el propósito principal del elemento HTML `<head>`?",
+      "options": [
+        "Contener el contenido visible de la página web",
+        "Incluir metadatos sobre la página, como el título y enlaces a hojas de estilo",
+        "Definir el pie de página de la página web",
+        "Crear una sección navegable en la página"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué etiqueta HTML se utiliza para incrustar una imagen en una página web?",
+      "options": ["etiqueta img", "etiqueta picture", "etiqueta figure", "etiqueta media"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué etiqueta HTML se utiliza para crear una lista ordenada?",
+      "options": ["ul", "ol", "li", "dl"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es el propósito del atributo `alt` en la etiqueta `<img>`?",
+      "options": [
+        "Definir la alineación de la imagen",
+        "Proporcionar texto alternativo para lectores de pantalla si la imagen no se carga",
+        "Especificar la URL de la imagen",
+        "Establecer las dimensiones de la imagen"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué elemento HTML se utiliza para definir el contenido principal de un documento?",
+      "options": ["header", "footer", "main", "section"],
+      "answer": 2
+    }
+  ],
+  "CSS": [
+    {
+      "question": "¿Qué selector CSS se utiliza para seleccionar un elemento por su ID?",
+      "options": [".clase", "#id", "elemento", "*"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué propiedad CSS se utiliza para controlar el espacio entre las letras de un texto?",
+      "options": ["line-height", "word-spacing", "letter-spacing", "text-indent"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué valor de la propiedad `display` oculta un elemento sin ocupar espacio en el diseño?",
+      "options": ["hidden", "none", "invisible", "collapse"],
+      "answer": 1
+    },
+    {
+      "question": "¿Qué propiedad CSS se utiliza para aplicar un estilo a un texto al pasar el ratón por encima (hover)?",
+      "options": ["text-hover", "mouse-over", ":hover", "on-hover"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál de las siguientes unidades de medida es relativa al tamaño de la fuente del elemento padre?",
+      "options": ["px", "em", "rem", "%"],
+      "answer": 1
+    }
+  ],
+  "Javascript": [
+    {
+      "question": "¿Qué operador se utiliza para comparar si dos valores son iguales en valor Y tipo en JavaScript?",
+      "options": ["==", "===", "!=", "!=="],
+      "answer": 1
+    },
+    {
+      "question": "¿Cómo se escribe un comentario de una sola línea en JavaScript?",
+      "options": ["// Este es un comentario", "/* Este es un comentario */", "# Este es un comentario", "-- Este es un comentario"],
+      "answer": 0
+    },
+    {
+      "question": "¿Qué método de array se utiliza para eliminar el último elemento de un array y devolver ese elemento?",
+      "options": ["shift()", "unshift()", "pop()", "splice()"],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué palabra clave se utiliza para declarar una función en JavaScript?",
+      "options": ["func", "function", "def", "method"],
+      "answer": 1
+    },
+    {
+      "question": "¿Cuál es la forma correcta de referenciar un elemento HTML por su ID en JavaScript?",
+      "options": [
+        "document.getElementById('myId')",
+        "document.querySelector('#myId')",
+        "document.getElementsByClassName('myId')",
+        "document.getByName('myId')"
+      ],
+      "answer": 0
+    }
+  ],
+  "Accessibility": [
+    {
+      "question": "¿Por qué es importante proporcionar alternativas de texto para el contenido no textual (como imágenes y videos) en accesibilidad web?",
+      "options": [
+        "Para mejorar el SEO de la página",
+        "Para que los motores de búsqueda puedan indexar el contenido multimedia",
+        "Para que los usuarios con discapacidad visual puedan entender el contenido",
+        "Para reducir el tiempo de carga de la página"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "¿Qué atributo ARIA se utiliza para indicar que un elemento es interactivo y puede ser expandido o colapsado?",
+      "options": ["aria-label", "aria-hidden", "aria-expanded", "aria-describedby"],
+      "answer": 2
+    },
+    {
+      "question": "¿Cuál es el propósito de la navegación por teclado en la accesibilidad web?",
+      "options": [
+        "Para usuarios que prefieren el teclado al ratón",
+        "Para usuarios con discapacidades motoras que no pueden usar un ratón",
+        "Para usuarios que no tienen un ratón",
+        "Todas las anteriores"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "¿Qué pauta de WCAG (Web Content Accessibility Guidelines) se enfoca en hacer el contenido comprensible?",
+      "options": ["Perceptible", "Operable", "Comprensible", "Robusto"],
+      "answer": 2
+    },
+    {
+      "question": "¿Por qué es importante considerar el contraste de color en el diseño web para la accesibilidad?",
+      "options": [
+        "Para hacer el diseño más atractivo visualmente",
+        "Para cumplir con las tendencias de diseño actuales",
+        "Para asegurar que el texto sea legible para personas con baja visión o daltonismo",
+        "Para reducir la fatiga ocular en todos los usuarios"
+      ],
+      "answer": 2
+    }
+  ]
+}
